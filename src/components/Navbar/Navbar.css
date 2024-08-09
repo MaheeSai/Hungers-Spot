@@ -1,0 +1,113 @@
+.container{
+    width: 1170px;
+}
+
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar ul{
+   margin-bottom: 0px !important;
+}
+
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: #403c3c;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap:20px;
+   
+}
+
+.navbar .button{
+    background: transparent;
+    border: 1px solid rgb(84, 84, 83);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: inherit;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar .button:hover{
+    background-color: coral;
+    color: aliceblue;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(46, 45, 45);
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.basket{
+    position: relative;
+}
+
+.basket .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background: tomato;
+    border-radius: 5px;
+    top: -3px;
+    right: -5px;
+}
+
+
+@media(max-width:1050px){
+    .navbar.logo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap:20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+    .navbar-right button{
+        padding: 8px 25px;
+    }
+}
+
+@media(max-width:900px){
+    .navbar.logo{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap:15px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .navbar-right button{
+        padding: 7px 20px;
+    }
+}
+
+@media(max-width:750px){
+    .navbar-menu{
+        display: none;
+    }
+}

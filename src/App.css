@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    min-height: 100vh;
+    
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+/* .nav-options li{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(26, 25, 25);
+}
+.header{
+    height: 34vw;
+    margin:30px auto;
+    background: url(/food-delivery/public/header_img.png);
+} */
